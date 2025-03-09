@@ -1,0 +1,171 @@
+
+/* Emma Clark */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header */
+  header {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  #logo {
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #007a00;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout */
+  #content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Sidebar */
+  aside {
+    width: 250px;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  aside h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  aside section {
+    margin-bottom: 20px;
+  }
+  
+  aside section h3 {
+    background-color: #007a00;
+    color: white;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  aside a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  aside a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    flex-grow: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  article h2 {
+    color: black;
+  }
+  
+  article p {
+    line-height: 1.5;
+  }
+  
+  /* Grid Section */
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  section a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+    transition: 0.3s;
+  
+  section a:hover {
+    background-color: #e6ffe6;
+  }
+  
+  section img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  section p {
+    margin: 10px 0 0;
+    color: #007a00;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #007a00;
+    color: white;
+    margin-top: 20px;
+  }
